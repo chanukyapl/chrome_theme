@@ -1,0 +1,42 @@
+{
+	"name":"Chanukya Custom Theme",
+	"version": "0.1",
+	"manifest_version": 3,
+	"theme": {
+		"images" : {
+    },
+    "colors" : {
+      "frame" : [70, 139, 155],
+      "frame_inactive" : [70, 139, 155],
+      "frame_incognito": [70, 139, 155],
+      "frame_incognito_inactive": [70, 139, 155],
+      "background_tab": [155, 216, 227],
+      "background_tab_inactive": [155, 216, 227],
+      "background_tab_incognito": [155, 216, 227],
+      "background_tab_incognito_inactive": [155, 216, 227],
+      "tab_background_text": [36, 70, 0],
+      "tab_text": [255, 255, 255],
+      "bookmark_text":[255, 255, 255],
+    
+      
+      "toolbar" : [125, 86, 156],
+      "toolbar_button_icon" : [255, 255, 255],
+      "ntp_background" : [255, 255, 255],
+      "ntp_header" : [255, 255, 255],
+      
+      "ntp_text" : [255, 255, 255],
+      "ntp_link" : [36, 70, 0],
+      "ntp_section" : [255, 255, 255],
+      "button_background" : [255, 255, 255]
+    },
+    "tints" : {
+      "buttons" : [0.33, 0.5, 0.47]
+    },
+    "properties" : {
+      "ntp_background_alignment" : "bottom"
+    }
+	},
+	"description_for_colors":{"frame":"frame->Total frame;frame_inactive->when its go to background",
+		"url": "https://developer.chrome.com/docs/extensions/mv3/themes/",
+		"background":"tab which is in background"}
+}
